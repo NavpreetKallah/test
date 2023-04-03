@@ -129,8 +129,10 @@ document.getElementById('clear').onclick = function () {
   a = ""
   b = ""
   c = ""
+  symbol = ""
   console.log(a)
   document.getElementById("display").innerHTML = a
+  document.getElementById("symbol").innerHTML = symbol
 }
 document.getElementById('=').onclick = function () {
     b = b.toString()
