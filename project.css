@@ -1,0 +1,149 @@
+body {
+  margin: 0px;
+}
+
+.first, .second{
+  height: 50px;
+  display: flex;
+  background-color: #1f2937;
+  align-items: center;
+  gap: 20px;
+  padding-right: 200px;
+}
+.first{
+  justify-content: flex-start;
+}
+.second{
+  height: 500px;
+  padding-left: 200px;
+}
+
+.third{
+  width: 400px;
+
+}
+.fourth{
+  background-color: #676e6d;
+  color: #F9F8FA;
+  text-align: center;
+  margin-left: 50px;
+  width: 320px;
+  padding: 100px;
+}
+
+.item_1 {
+  margin-right: auto;
+  padding: 200px;
+  font-size: 24px;
+  color: #F9F8FA;
+}
+.item_2, .item_4 {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+.item_3, .item_4, .item_5 {
+  padding-top: 5px;
+}
+.item_3 {
+  font-size: 48px;
+  color: #F9F8FA;
+}
+.item_5 {
+  color: #F9F8FA;
+  background-color: #3882F6;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100px;
+}
+
+.info {
+  font-size: 36px;
+  padding-top: 50px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+.image_container {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+.image_1 {
+  width: 160px;
+  height: 160px;
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+}
+.image_caption {
+  width: 160px;
+  color: #455357;
+}
+.quote_container {
+  margin-top: 120px;
+  display: flex;
+  height: 400px;
+  background-color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.quote {
+  margin-left: 50px;
+  width: 900px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  text-align: start;
+}
+.author {
+  width:700px;
+  color: #1f2937;
+  font-weight: bolder;
+  text-align: end;
+  font-size: 20px;
+}
+.action {
+  display: flex;
+  background-color: #3882F6;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+  height: 130px;
+  margin-top: 100px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 100px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+#call {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.navpreet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: white;
+  height: 100px;
+  font-size: 20px;
+}
+* {font-family: sans-serif;}
