@@ -133,6 +133,8 @@ document.getElementById('clear').onclick = function () {
   document.getElementById("display").innerHTML = a
 }
 document.getElementById('=').onclick = function () {
+    b = b.toString()
+    c = c.toString()
   if (c.length > 0) {
     b = a;
   } else {
