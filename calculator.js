@@ -2,7 +2,7 @@ a = "";
 b = "";
 c = "";
 symbol = "";
-document.getElementById('one').onclick = function () {
+document.getElementById('1').onclick = function () {
   a = a + 1
   console.log(a)
   document.getElementById("display").innerHTML = a
