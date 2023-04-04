@@ -1,29 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Main page</title>
-    <link rel="stylesheet" href="home.css">
-  </head>
 
-  <body>
-    <h1>This is a header isnt that cool?</h1>
-    <p>but wait untill you see this <strong>sexy paragraph</strong>
-      i used bold bcus im a <em>really cool</em> guy</p>
-    <ol>
-      <li>im making an ordered list here now</li>
-      <li> this is the second item woah</li>
-      <li> guess what this one is :O </li>
-    </ol>
-    <ul>
-      <li>Im not making 3 again but this is unordered as u can see by the bullet point</li>
-      <li>ill make 2 tho :3</li>
-    </ul>
-    <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">wanna see smth cool click this </a></p>
-    <p><a href="another one.html"> ok this one is actually cool</a></p>
-    <p><a href="css testing.html"> css testing zone lets go</a></p>
-    <p><a href="project 1.html"> My first complete project :O </a></p>
-    <p><a href="calculator.html"> I made a calculator in js its like 20x the lines of python not fun send help </a></p>
+<head>
+	<meta charset="UTF-8">
+	<title>Main page</title>
+	<link rel="stylesheet" href="home.css">
+</head>
 
-  </body>
+<body>
+  
+  <div class="header column">
+	  <div class="header_title">This is my home page for all my projects</div>
+    <div class="header">
+  	<div class="image">
+      <img class = "header_image"src="https://github.com/NavpreetKallah/test/blob/master/images/JavaScript.png?raw=true">
+	    <img class = "header_image"src="https://github.com/NavpreetKallah/test/blob/master/images/CSS.png?raw=true">
+      <img class = "header_image"src="https://github.com/NavpreetKallah/test/blob/master/images/HTML.png?raw=true">
+  	</div>
+    <div class="header_info">
+      <div class="header_description">
+        Everything you see on this website has been
+        made by me at some point using JavaScript, HTML and CSS
+      </div>
+    </div>
+    </div>
+    <div>
+      <button id ="course" class="button"> For anyone interested in the course i used </button>
+    </div>
+  </div>
+  <div class="projects column">
+	  <div class="header_title"> Projects:</div>
+    <div class="project_title">Website</div>
+        <div class="projects row">
+  	    <img id="temp_image"src="https://github.com/NavpreetKallah/test/blob/master/images/Website.png?raw=true"></div>
+        <button class="button project_button" id="website"> Click here to view this project </button>
+	      <div class="project_description">This is a website the course i used asked me to create i had to create
+          this by looking at a picture of the finished site and starting from scratch
+    </div>
+<div class="project_title">Website</div>
+  <div class="projects row">
+	<img id="temp_image"src="https://github.com/NavpreetKallah/test/blob/master/images/Calculator.png?raw=true"></div>
+	<button class="button project_button" id="calculator"> Click here to view this project </button>
+	<div class="project_description">This is a calculator which i created the visuals for this took
+    52 lines of CSS and 46 lines of HTML however the JavaScript took 169 lines
+
+</div>
+  </div>
+  <script src="calculator.js" defer></script>
+</body>
+
 </html>
