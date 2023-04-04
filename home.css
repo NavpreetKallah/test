@@ -56,9 +56,18 @@ body {
   width: 100px;
   height: 100px;
 }
-#temp_image {
+.project_images {
   width: 100px;
   height: 100px;
+}
+
+.image_website {
+  width: 402px;
+  height: 192px;
+}
+.image_calculator {
+  width: 220px;
+  height: 320px;
 }
 #course {
   margin-bottom: 120px;
