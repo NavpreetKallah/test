@@ -71,7 +71,8 @@ body {
   height: auto;
 }
 .image_rps {
-  width: 30%;
+  align-self: center;
+  width: 40%;
   height: auto;
 }
 #course {
