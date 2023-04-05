@@ -70,6 +70,10 @@ body {
   width: 20%;
   height: auto;
 }
+.image_rps {
+  width: 30%;
+  height: auto;
+}
 #course {
   margin-bottom: 120px;
 }

@@ -7,3 +7,6 @@ document.getElementById("course").addEventListener("click", function () {
   document.getElementById("calculator").addEventListener("click", function () {
     window.open("https://navpreetkallah.github.io/test/calculator.html", "_blank")
   });
+  document.getElementById("RPS").addEventListener("click", function () {
+    window.open("https://navpreetkallah.github.io/test/RPS.html", "_blank")
+  });
