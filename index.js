@@ -2,11 +2,11 @@ document.getElementById("course").addEventListener("click", function () {
     window.open("https://www.theodinproject.com/paths/foundations/courses/foundations", "_blank")
   });
   document.getElementById("website").addEventListener("click", function () {
-    window.open("https://navpreetkallah.github.io/test/project%201.html", "_blank")
+    window.open("https://navpreetkallah.github.io/test/Projects/Website/website.html", "_blank")
   });
   document.getElementById("calculator").addEventListener("click", function () {
-    window.open("https://navpreetkallah.github.io/test/calculator.html", "_blank")
+    window.open("https://navpreetkallah.github.io/test/Projects/Calculator/calculator.html", "_blank")
   });
   document.getElementById("RPS").addEventListener("click", function () {
-    window.open("https://navpreetkallah.github.io/test/RPS.html", "_blank")
+    window.open("https://navpreetkallah.github.io/test/Projects/Rock%20Paper%20Scissors/RPS.html", "_blank")
   });
