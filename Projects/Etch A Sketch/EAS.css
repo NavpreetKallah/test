@@ -1,0 +1,39 @@
+* {
+    background-color: #21897E;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .panel {
+    background-color: #69D1C5;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  #container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .black {
+    background-color: black;
+  }
+  .INeededSomewhereToPutTheButtonDontMindMe {
+    transition-duration: 4;
+    display: flex;
+    justify-content: center;
+  }
+  #clear {
+    transition-duration: 0.7s;
+    border: 4px solid black;
+    border-radius: 5px;
+    background-color: #69D1C5;
+    width: 20%;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  #clear:hover {
+    background-color: #3ABBAC;
+  }

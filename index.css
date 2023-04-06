@@ -75,6 +75,11 @@ body {
   width: 40%;
   height: auto;
 }
+.image_eas {
+  align-self: center;
+  width: 30%;
+  height: auto;
+}
 #course {
   margin-bottom: 120px;
 }
