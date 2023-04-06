@@ -51,8 +51,9 @@ panels.forEach((panel) => {
 });
 })
 document.getElementById("change").addEventListener("click", function () {
-  size = (prompt("Please enter how many panels wide you would like the grid to be between 1-100")-1)
-  if (100 >=size && size>=1) {
+  size = (prompt("Please enter how many panels wide you would like the grid to be between 1-100"))
+  if (100 >= size && size >= 1) {
+  size = size - 1
   document.getElementById("container").innerHTML = "";
   update()
   detect_hover()
